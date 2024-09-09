@@ -9,13 +9,19 @@ function calculateAverageSales(sales) {
 }
 //Create determinePerformanceRating function"
 function determinePerformanceRating(avgSales) {
-    if (avgSales > 10000) {
+    if 
+    (avgSales > 10000) {
         return 'Excellent';
-    } else if (avgSales >= 7000 && avgSales <= 10000) {
+    } else if 
+    (avgSales >= 7000 && avgSales <= 10000) {
         return 'Good';
-    } else if (avgSales >= 4000 && avgSales <= 7000) {
+    } else if 
+    (avgSales >= 4000 && avgSales <= 7000) {
         return 'Satisfactory';
-    } else if (avgSales < 4000) {
+    } 
+    else if (avgSales < 4000) {
         return 'Needs Improvement';
     }
 }
+//Develop findTopAndBottomPerformers function
+function [topPerformer, bottomPerformer] = findTopAndBottomPerformers (namePerson, totalPerformer);
